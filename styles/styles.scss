@@ -1,0 +1,101 @@
+.text {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-style: normal;
+    letter-spacing: 1px;
+    line-height: 33px;
+    }
+
+#header-wrapper {
+    background-color: rgba(0, 0, 0, 0.801218);
+    display: flex;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 40px;
+    width: 1500px;
+    height: 40px;
+    position:fixed;
+    /* margin-top: -10px;  para que cuando scrolleo no se vea la línea arriba?*/
+    
+    .logo {
+        align-self: center;
+        padding-right: 60px;
+        padding-left: 30px;
+        width: 120px;
+        height: 30px;
+    }
+    .header.text {
+        font-size: 0.7em;
+        padding-right: 15px;
+        align-self: center;
+    }
+}
+
+.main-wrappertext {
+    position: relative;
+    width: 200px;
+    
+    .main-centertext {
+        position: absolute;
+        top: -640px;
+        left: 60px;
+       
+        .main-wrapper.title{
+            font-size: 7.8em;
+            font-weight: bold;
+            line-height: 83%;
+            margin-bottom: 10px;
+        }
+        .main-wrapper.subtitle{
+            font-size: 1.2em;
+            font-weight: bold;
+            line-height: 83%;
+            margin: 0 0  20px 10px;
+        }
+        .main-buttonwrapper{
+            display: flex;
+            
+            .button.main-wrapper {
+                background-color: rgba(157, 151, 151, 0.541521);
+                width: 130px;
+                height: 40px;
+                margin-top: 5px;
+                margin-right: 10px;
+                text-align: center;
+                padding-top: 10px;
+                border-radius: 9px;
+                }
+            
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 28px;
+        }
+    }
+
+
+}
+
+.carrousel.title {
+    margin: 30px 0px 15px 20px;
+    font-weight: bold;
+}
+
+.carrousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    .carrousel-img {
+       margin-right: 16px;
+       scroll-snap-align: start; 
+    }
+} 
+
+
+
+
+#main {
+    background-color: black;
+    
+}
