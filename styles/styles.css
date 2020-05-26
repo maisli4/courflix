@@ -1,4 +1,8 @@
 @charset "UTF-8";
+html {
+  scroll-behavior: smooth;
+}
+
 .text {
   color: #ffffff;
   font-family: "Open Sans";
@@ -84,6 +88,31 @@
 .carrousel .carrousel-img {
   margin-right: 16px;
   scroll-snap-align: start;
+}
+
+.carrousel-img.seguir-viendo {
+  margin-bottom: 15px;
+}
+
+.barra-wrapper .porcentaje-wrapper {
+  display: flex;
+  align-content: stretch;
+  width: 300px;
+}
+.barra-wrapper .porcentaje-wrapper .barra {
+  background-color: #858585;
+  width: 60%;
+  height: 6px;
+  display: flex;
+  align-self: flex-end;
+}
+.barra-wrapper .porcentaje-wrapper .barra-red {
+  background-color: red;
+  width: 40%;
+  height: 6px;
+  margin-left: 50px;
+  display: flex;
+  align-self: flex-end;
 }
 
 #main {

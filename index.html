@@ -12,15 +12,25 @@
 <body>
     <div id="header-wrapper">
         <img class="header logo" src="Images/logoCourflix.png" alt="Logo Courflix"> 
-        <div class="header text">Inicio</div>
-        <div class="header text">Series</div>
-        <div class="header text">Películas</div>
-        <div class="header text">Agregados recientemente</div>
-        <div class="header text">Mi lista</div>
+        <a href="#portada">
+            <div class="header text">Inicio</div>
+        </a>
+        <a href="#series">
+            <div class="header text">Series</div>
+        </a>
+        <a href="">
+            <div class="header text">Películas</div>
+        </a>
+        <a href="#agregados">
+            <div class="header text">Agregados recientemente</div>
+        </a>
+        <a href="">
+            <div class="header text">Mi lista</div>
+            </a>
     </div>
 
     <div id="main">
-        <img class="portada" src="Images/portada.png">
+        <img name="portada" id="portada" class="portada" src="Images/portada.png">
         <div class="main-wrappertext"> 
             <div class="main-centertext">
                 <div class="subtitle main-wrapper text">Original de COURFLIX</div>
@@ -36,44 +46,60 @@
             </div>
         </div>
 
-        <span class="carrousel title text">Series</span>
+        <span name="series" id="series" class="carrousel title text">Series</span>
         <div class="carrousel series">
             <a href="detalle.html">
-                <img class="carrousel-img 1" src="./Images/The7DeadlySins.png" alt="The7DeadlySins"></a>
+                <img class="carrousel-img series" src="./Images/The7DeadlySins.png" alt="The7DeadlySins"></a>
             <a href="detalle.html">
-                <img class="carrousel-img 1" src="./Images/Lucifer.png" alt="Lucifer"></a>
+                <img class="carrousel-img series" src="./Images/Lucifer.png" alt="Lucifer"></a>
             <a href="detalle.html">
-                <img class="carrousel-img 1" src="./Images/TheProtector.png" alt="TheProtector"></a>
+                <img class="carrousel-img series" src="./Images/TheProtector.png" alt="TheProtector"></a>
             <a href="detalle.html">
-                <img class="carrousel-img 1" src="./Images/LoveDeathRobots.png" alt="LoveDeathRobots"></a> 
+                <img class="carrousel-img series" src="./Images/LoveDeathRobots.png" alt="LoveDeathRobots"></a> 
         </div>
 
         <span class="carrousel title text">Seguir viendo contenido de Tucu</span>
         <div class="carrousel seguir-viendo">
-            <a href="detalle.html">
-                <img class="carrousel-img 2" src="./Images/Vikingos.png" alt="Vikingos"></a>
-                <div class="barra"></div>
-            <a href="detalle.html">
-                <img class="carrousel-img 2" src="./Images/Dark.png" alt="Dark"></a>
-                <div class="barra"></div>
-            <a href="detalle.html">
-                <img class="carrousel-img 2" src="./Images/LaOrdenSecreta.png" alt="LaOrdenSecreta"></a>
-                <div class="barra"></div>
-            <a href="detalle.html">
-                <img class="carrousel-img 2" src="./Images/TheEndOf.png" alt="TheEndOf"></a>
-                <div class="barra"></div>
+            <div class="barra-wrapper">
+                <a href="detalle.html">   
+                    <img class="carrousel-img seguir-viendo" src="./Images/Vikingos.png" alt="Vikingos"></a>
+                <div class="porcentaje-wrapper">
+                    <div class="barra-red"></div><div class="barra"></div>
+                </div>
+            </div>
+            <div class="barra-wrapper">    
+                <a href="detalle.html">
+                    <img class="carrousel-img seguir-viendo" src="./Images/Dark.png" alt="Dark"></a>
+                <div class="porcentaje-wrapper">
+                    <div class="barra-red"></div><div class="barra"></div>
+                </div>
+            </div>
+            <div class="barra-wrapper">
+                <a href="detalle.html">
+                    <img class="carrousel-img seguir-viendo" src="./Images/LaOrdenSecreta.png" alt="LaOrdenSecreta"></a>
+                <div class="porcentaje-wrapper">
+                    <div class="barra-red"></div><div class="barra"></div>
+                </div>
+            </div>
+            <div class="barra-wrapper">
+                <a href="detalle.html">
+                    <img class="carrousel-img seguir-viendo" src="./Images/TheEndOf.png" alt="TheEndOf"></a>
+                <div class="porcentaje-wrapper">
+                    <div class="barra-red"></div><div class="barra"></div>
+                </div>
+            </div>        
         </div>
 
         <span class="carrousel title text">Agregados recientemente</span>
-        <div class="carrousel agregados">
+        <div name="agregados" id="agregados" class="carrousel agregados">
             <a href="detalle.html">
-                <img class="carrousel-img 3" src="./Images/Arrow.png" alt="Arrow"></a>
+                <img class="carrousel-img agregados" src="./Images/Arrow.png" alt="Arrow"></a>
             <a href="detalle.html">
-                <img class="carrousel-img 3" src="./Images/Flash.png" alt="Flash"></a>
+                <img class="carrousel-img agregados" src="./Images/Flash.png" alt="Flash"></a>
             <a href="detalle.html">
-                <img class="carrousel-img 3" src="./Images/The7DeadlySins.png" alt="The7DeadlySins"></a>
+                <img class="carrousel-img agregados" src="./Images/The7DeadlySins.png" alt="The7DeadlySins"></a>
             <a href="detalle.html">
-                <img class="carrousel-img 3" src="./Images/Lucifer.png" alt="Lucifer"></a>
+                <img class="carrousel-img agregados" src="./Images/Lucifer.png" alt="Lucifer"></a>
         </div>
     </div>
     
