@@ -79,6 +79,11 @@ html {
   font-weight: bold;
 }
 
+/* .carrousel::-webkit-scrollbar {
+    display: none;
+   }
+
+  no me anduvo  */
 .carrousel {
   display: flex;
   overflow-x: auto;
