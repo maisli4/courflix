@@ -7,6 +7,78 @@
     <link rel="stylesheet" href="./style/styles2.css">
 </head>
 <body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courflix</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles2.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+        </style>
+</head>
+<body>
+    <div id="header-wrapper">
+        <img class="header logo" src="images/logoCourflix.png" alt="Logo Courflix"> 
+        <a href="#portada">
+            <div class="header text">Inicio</div>
+        </a>
+        <a href="#series">
+            <div class="header text">Series</div>
+        </a>
+        <a href="">
+            <div class="header text">Películas</div>
+        </a>
+        <a href="#agregados">
+            <div class="header text">Agregados recientemente</div>
+        </a>
+        <a href="">
+            <div class="header text">Mi lista</div>
+            </a>
+    </div>
+
+    <div id="main">
+        <div name="portada" id="portada" class="portada"></div> 
+        <div class="main-wrappertext"> 
+            <div class="main-centertext">
+                <div class="subtitle main-wrapper text">Original de COURFLIX</div>
+                <div class="title main-wrapper text"></div>
+                <div class="data-div">
+                    <div class="data1 text">95% de coincidencia</div>
+                    <div class="data2 text">2016</div>
+                    <div class="data3-wrapper">
+                        <div class="data3 text">16+</div>
+                    </div>
+                    <div class="data4 text">5 temporadas</div>
+                </div>
+                <div class="main-buttonwrapper">
+                    <div class="button rep main-wrapper text">Reproducir</div>
+                    <div class="button lista main-wrapper text">+ mi lista</div>
+                    <img class="thumbs up" src="./images/thumbs.png">
+                    <img class="thumbs down" src="./images/thumbs.png">
+                </div>
+                
+                <p class="p main-wrapper text"> Un profesor de Química de secundaria con cáncer terminal
+                    se asocia a un exestudiante para asegurar el futuro de su familia al fabricar y vender
+                    metanfetamina. </p>
+            </div>
+        </div>
+
+        <span name="series" id="series" class="carrousel-title text">Series</span>
+        <div class="carrousel dragscroll series">
+            <a href="detalle.html">
+                <img class="carrousel-img series" src="./images/the-7deadly-sins.png" alt="The7DeadlySins"></a>
+            <a href="detalle.html">
+                <img class="carrousel-img series" src="./images/lucifer.png" alt="Lucifer"></a>
+            <a href="detalle.html">
+                <img class="carrousel-img series" src="./images/the-protector.png" alt="TheProtector"></a>
+            <a href="detalle.html">
+                <img class="carrousel-img series" src="./images/love-death-robots.png" alt="LoveDeathRobots"></a> 
+        </div>
     
-</body>
+        <script src="./js/index.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dragscroll/0.0.8/dragscroll.js"></script>
+    </body>
 </html>

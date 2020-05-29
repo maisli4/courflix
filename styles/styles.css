@@ -3,6 +3,10 @@ html {
   scroll-behavior: smooth;
 }
 
+a:link, a:visited, a:active {
+  text-decoration: none;
+}
+
 .text {
   color: #ffffff;
   font-family: "Open Sans";
@@ -20,6 +24,7 @@ html {
   width: 1500px;
   height: 40px;
   position: fixed;
+  z-index: 8;
   /* margin-top: -10px;  para que cuando scrolleo no se vea la línea arriba?*/
 }
 #header-wrapper .logo {
@@ -79,16 +84,17 @@ html {
   font-weight: bold;
 }
 
-/* .carrousel::-webkit-scrollbar {
-    display: none;
-   }
+.carrousel::-webkit-scrollbar {
+  height: 5px;
+  background-color: gray;
+  display: none;
+}
 
-  no me anduvo  */
 .carrousel {
   display: flex;
   overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
+  /* scroll-snap-type: x mandatory;
+  scroll-behavior: smooth; */
 }
 .carrousel .carrousel-img {
   margin-right: 16px;

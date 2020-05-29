@@ -1,0 +1,193 @@
+html {
+    scroll-behavior: smooth;
+    }
+    
+    a:link, a:visited, a:active {
+        text-decoration:none;
+    }
+    
+    .text {
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-style: normal;
+        letter-spacing: 1px;
+        line-height: 33px;
+        }
+    
+    #header-wrapper {
+        background-color: rgba(0, 0, 0, 0.801218);
+        display: flex;
+        font-weight: bold;
+        padding: 10px;
+        padding-left: 40px;
+        width: 1500px;
+        height: 40px;
+        position:fixed;
+        z-index: 8;
+        /* margin-top: -10px;  para que cuando scrolleo no se vea la línea arriba?*/
+        
+        .logo {
+            align-self: center;
+            padding-right: 60px;
+            padding-left: 30px;
+            width: 120px;
+            height: 30px;
+        }
+        .header.text {
+            font-size: 0.7em;
+            padding-right: 15px;
+            align-self: center;
+        }
+    }
+    
+    /* .portada-gradient {
+        height: 778px;
+        width: 1460px;
+        background: linear-gradient(180deg, black, #000111); 
+    }*/
+    
+    .portada {
+        background-image: linear-gradient(90deg,
+        rgba(0, 0, 0, 0.884),
+        rgba(170, 170, 170, 0.11)),
+        url("../images/bbportada.png");
+        background-size: cover;
+        height: 778px;
+        width: 1460px;       
+    }
+
+    .main-wrappertext {
+        /* position: relative; */
+        width: 600px;
+        margin-top: -700px;
+        margin-left: 30px;
+        margin-bottom: 45px;
+        
+        .main-centertext {
+            /* position: absolute; 
+            top: -640px;
+            left: 60px;*/
+           
+            .main-wrapper.title{
+                background-image: url("../images/breakingbadlogo.png");
+                height: 345px;
+                width: 345px;
+                margin-bottom: 10px;
+            }
+            .main-wrapper.subtitle{
+                font-size: 1.2em;
+                font-weight: bold;
+                line-height: 83%;
+                margin: 0 0  20px 10px;
+                display: none;
+            }
+            .data-div{
+                display: flex;
+                width: 600px;
+                align-items: baseline;
+                margin-top: -20px;
+                
+                .data1 {
+                    margin-right: 15px;
+                    color: #009C04;
+                    font-weight: bold;
+
+                }
+                .data2 {
+                   margin-right: 15px;
+                    
+                }
+                .data3-wrapper {
+                    border-style: solid;
+                    border-width: 1px;
+                    border-radius: 5px;
+                    margin-right: 15px;
+                    margin-bottom: 10px;
+                    padding-left: 7px;
+                    padding-right: 7px;
+
+                   
+                    .data3 {
+                   /* text-align: center; */
+                   padding: 1px; 
+                  
+                    }
+                }
+                .data4 {
+                    margin-right: 15px;
+                    font-weight: bold;
+                }
+            }
+
+            .main-buttonwrapper{
+                display: flex;
+                align-items: center;
+                
+                .button.main-wrapper {
+                    background-color: rgba(157, 151, 151, 0.541521);
+                    width: 130px;
+                    height: 40px;
+                    margin-top: 5px;
+                    margin-right: 10px;
+                    text-align: center;
+                    padding-top: 10px;
+                    border-radius: 9px;
+                    }
+                .button.main-wrapper.rep{
+                    background-color: #ED0A1D;
+                }
+                .thumbs.up {
+                    transform: rotate(-180deg);
+                }
+                .thumbs {
+                    height: 30px;
+                    width: 29px;
+                    margin-left: 15px;
+                    margin-top: 15px;
+                    padding: 5px;
+                    border-radius: 50%;
+                    border-color: #D8D8D8;
+                    border-width: 1px;
+                    border-style: solid;
+                }
+            
+            }
+            p {
+                margin-top: 15px;
+                font-size: 1.1em;
+                line-height: 28px;
+            }
+        }
+    
+    
+    }
+    
+    .carrousel-title {
+        margin-left: 15px;
+        font-weight: bold;
+    }
+    
+    .carrousel::-webkit-scrollbar {
+        height: 5px;
+        background-color: gray;
+        display: none; 
+       }
+    
+    .carrousel {
+        display: flex;
+        overflow-x: auto;
+        /* scroll-snap-type: x mandatory;
+        scroll-behavior: smooth; no se ajusta al dragscroll*/
+        margin-left: 15px;
+        margin-top: 8px;
+        .carrousel-img {
+           margin-right: 16px;
+           scroll-snap-align: start; 
+        }
+    } 
+
+    #main {
+        background-color: black;
+        
+    }
+        
