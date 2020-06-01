@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Breaking Bad</title>
     <link rel="stylesheet" href="./style/styles2.css">
+    <link rel="stylesheet" href="./images/fontawesome-free-5.13.0-web/css/all.css">
 </head>
 <body>
     <!DOCTYPE html>
@@ -21,6 +22,7 @@
 </head>
 <body>
     <div id="header-wrapper">
+        <button class="menu js-hamburger"><i class="fas fa-bars"></i></button>
         <img class="header logo" src="images/logoCourflix.png" alt="Logo Courflix"> 
         <a href="#portada">
             <div class="header text">Inicio</div>
@@ -37,15 +39,27 @@
         <a href="">
             <div class="header text">Mi lista</div>
             </a>
+        
     </div>
+    <!-- <div class="menu-mobile">
+        <div class="menu-wrapper text">
+            <a href="" class="menu-text-1">Inicio</a>
+            <a href="" class="menu-text-2">Series</a>
+            <a href="" class="menu-text-3">Películas</a>
+            <a href="" class="menu-text-4">Agregados recientemente</a>
+            <a href="" class="menu-text-5">Mi lista</a>
+        </div>
+    </div> -->
 
     <div id="main">
         <div name="portada" id="portada" class="portada"></div> 
-        <div class="main-wrappertext"> 
+        <div class="main-wrappertext">
+            <p class="p mobile title text">Breaking Bad</p> 
+            <p class="p mobile text">2008 - 16+ - 5 temporadas</p>
             <div class="main-centertext">
                 <div class="subtitle main-wrapper text">Original de COURFLIX</div>
                 <div class="title main-wrapper text"></div>
-                <div class="data-div">
+                <div class="data-div main-wrapper">
                     <div class="data1 text">95% de coincidencia</div>
                     <div class="data2 text">2016</div>
                     <div class="data3-wrapper">
@@ -66,16 +80,45 @@
             </div>
         </div>
 
-        <span name="series" id="series" class="carrousel-title text">Series</span>
-        <div class="carrousel dragscroll series">
-            <a href="detalle.html">
-                <img class="carrousel-img series" src="./images/the-7deadly-sins.png" alt="The7DeadlySins"></a>
-            <a href="detalle.html">
-                <img class="carrousel-img series" src="./images/lucifer.png" alt="Lucifer"></a>
-            <a href="detalle.html">
-                <img class="carrousel-img series" src="./images/the-protector.png" alt="TheProtector"></a>
-            <a href="detalle.html">
-                <img class="carrousel-img series" src="./images/love-death-robots.png" alt="LoveDeathRobots"></a> 
+        <span name="series" id="series" class="carrousel-title text">Capítulos</span>
+        <div class="carrousel dragscroll cap">
+            <a href="">
+            <div class="mobile carrousel-wrapper">
+                <i class="far fa-play-circle play"></i>
+                <img class="carrousel-img series" src="./images/bb1.jpg" alt="BB 1"></a>
+                <div class="text-wrapper-carrousel">
+                    <p class="title-cap text">Principio del fin</p>
+                    <p class="description text cap1">Un profesor de química de escuela secundaria recurre a la venta de drogas para mantener a su familia.</p>
+                </div>
+            </div>
+            <a href="">
+            <div class="mobile carrousel-wrapper">
+                <i class="far fa-play-circle play"></i>
+                <img class="carrousel-img series" src="./images/bb2.jpg" alt="BB 2"></a>
+                <div class="text-wrapper-carrousel">
+                    <p class="title-cap text">El gato en la bolsa</p>
+                    <p class="description text cap2">Luego del fracaso de su primer negocio de drogas, Walt y Jesse deben deshacerse de dos cadáveres.</p>
+                </div>
+            </div>
+            <a href="">
+            <div class="mobile carrousel-wrapper">
+                <i class="far fa-play-circle play"></i>
+                <img class="carrousel-img series" src="./images/bb3.jpg" alt="BB 3"></a>
+                <div class="text-wrapper-carrousel">
+                    <p class="title-cap text">La bolsa en el río</p>
+                    <p class="description text cap3">Walt limpia el desorden que quedó tras su primer negocio de drogas y piensa en decirle a Skyler la verdad.</p>
+                </div>
+            </div>
+            <a href="">
+            <div class="mobile carrousel-wrapper">
+                <i class="far fa-play-circle play"></i>
+                <img class="carrousel-img series" src="./images/bb4.jpg" alt="BB4"></a> 
+                <div class="text-wrapper-carrousel">
+                    <p class="title-cap text">Cáncer</p>
+                    <p class="description text cap4">Al ser forzado a contar contra la verdad acerca de su enfermedad, Walt enfrenta el problema de su tratamiento.</p>
+                </div>
+            </div>
+                
         </div>
     
         <script src="./js/index.js"></script>

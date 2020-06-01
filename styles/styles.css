@@ -2,6 +2,7 @@
 html {
   scroll-behavior: smooth;
   background-color: black;
+  min-width: 300px;
 }
 
 @media screen and (max-width: 414px) {
@@ -41,6 +42,7 @@ a:link, a:visited, a:active {
 #main {
   background-color: black;
   max-width: 1366px;
+  min-width: 300px;
 }
 
 #header-wrapper {
@@ -143,6 +145,7 @@ a:link, a:visited, a:active {
 
 .all-carrousel-wrapper {
   margin-top: 50px;
+  min-width: 300px;
 }
 
 .carrousel {
