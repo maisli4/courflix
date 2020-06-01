@@ -6,28 +6,32 @@
     <title>Courflix</title>
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./images/fontawesome-free-5.13.0-web/css/all.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
         </style>
 </head>
 <body>
     <div id="header-wrapper">
+        <button class="menu js-hamburger"><i class="fas fa-bars"></i></button>
         <img class="header logo" src="Images/logoCourflix.png" alt="Logo Courflix"> 
-        <a href="#portada">
-            <div class="header text">Inicio</div>
-        </a>
-        <a href="#series">
-            <div class="header text">Series</div>
-        </a>
-        <a href="">
-            <div class="header text">Películas</div>
-        </a>
-        <a href="#agregados">
-            <div class="header text">Agregados recientemente</div>
-        </a>
-        <a href="">
-            <div class="header text">Mi lista</div>
+        <div class="nav js-nav open">
+            <a href="#portada">
+                <div class="header text">Inicio</div>
             </a>
+            <a href="#series">
+                <div class="header text">Series</div>
+            </a>
+            <a href="">
+                <div class="header text">Películas</div>
+            </a>
+            <a href="#agregados">
+                <div class="header text">Agregados recientemente</div>
+            </a>
+            <a href="">
+                <div class="header text">Mi lista</div>
+                </a>
+        </div>
     </div>
 
     <div id="main">
